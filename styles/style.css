@@ -53,7 +53,7 @@
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
   line-height: 24.3px;
 }
 
@@ -163,7 +163,6 @@
   color: #000;
   font-family: 'Raleway', sans-serif;
   font-size: 40px;
-  font-style: normal;
   font-weight: bold;
   margin-left: 70px;
   text-transform: uppercase;
@@ -218,8 +217,7 @@
   color: #fff;
   font-family: 'Raleway', sans-serif;
   font-size: 22px;
-  font-style: normal;
-  font-weight: 700;
+  font-weight: bold;
   line-height: 120%; 
   text-decoration-line: underline;
   text-transform: uppercase;
@@ -228,12 +226,14 @@
 .card__text {
   position: relative;
   z-index: 2;
-  top: -5px;    /*Здесь добавил отрицательное значение, чтобы позиционирование текста совпало с макетом */ 
   color: #fff;
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
+}
+
+.card__text-indent {
+  padding-bottom: 5px;
 }
 
 .lots__look-more-link {
@@ -243,7 +243,6 @@
   color: #000;
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
-  font-weight: normal;
   text-underline-offset: 3px;
 }
 
@@ -283,7 +282,7 @@
 
 .about__title {
   color: #000;
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 40px;
   font-weight: bold;
   text-transform: uppercase;
