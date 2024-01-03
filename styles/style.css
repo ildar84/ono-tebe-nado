@@ -228,7 +228,7 @@
 .card__text {
   position: relative;
   z-index: 2;
-  top: -5px;
+  top: -5px;    /*Здесь добавил отрицательное значение, чтобы позиционирование текста совпало с макетом */ 
   color: #fff;
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
