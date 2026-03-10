@@ -54,6 +54,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 757px;
+  padding: 162px 19px 49px 47px;
 }
 
 .overlay {
@@ -65,4 +66,79 @@
     height: 100%;
     background-color: #000;
     opacity: 0.6;
+}
+
+.cover__title {
+    position: relative;
+    z-index: 2;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 115%;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.aligned-text {
+    display: block;
+    letter-spacing: 30px;
+}
+
+.letter-spacing-extended {
+   letter-spacing: 60px; 
+}
+
+.aligned-text_center {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.letter-spacing-extended_center {
+    letter-spacing: 60px; 
+}
+
+.aligned-text_right {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.letter-spacing-extended_right {
+    letter-spacing: 60px; 
+}
+
+.cover__description {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    color: #FFFFFF;
+    padding-top: 147px;
+    gap: 72px;
+}
+
+.cover__description-text{
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    word-spacing: 18px;
+}
+
+.bet-button {
+    background-color: transparent;
+    width: 252px;
+    height: 52px;
+    border: 1px solid #fff;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.lots__heading {
+    font-weight: 700;
+    font-size: 40px;
+    color:#000;
+    padding-top: 179px;
+    padding-left: 64px;    
 }
