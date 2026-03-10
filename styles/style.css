@@ -140,5 +140,27 @@
     font-size: 40px;
     color:#000;
     padding-top: 179px;
-    padding-left: 64px;    
+    padding-left: 64px;
+    text-transform: uppercase;    
+}
+
+.lots__card-list {
+    display: flex;
+    gap: 25px;
+}
+
+.lots__card-list-item {
+    list-style-type: none;
+}
+
+.card_type_film {
+    background-image: url(../images/card-lot-01.jpg);
+}
+
+.card_type_book {
+    background-image: url(../images/card-lot-02.jpg);
+}
+
+.card_type_picture {
+    background-image: url(../images/card-lot-03.jpg);
 }
