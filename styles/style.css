@@ -141,12 +141,15 @@
     color:#000;
     padding-top: 179px;
     padding-left: 64px;
+    padding-bottom: 27px;
     text-transform: uppercase;    
 }
 
 .lots__card-list {
     display: flex;
     gap: 25px;
+    margin-left: 33px;
+    margin-right: 33px;
 }
 
 .lots__card-list-item {
@@ -163,4 +166,107 @@
 
 .card_type_picture {
     background-image: url(../images/card-lot-03.jpg);
+}
+
+.card-link {
+    display: block;
+    position: relative;
+    height: 100%;
+    max-width: 328px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 48px 40px;
+    z-index: 0;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.card__title {
+    position: relative;
+    z-index: 2;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 120%;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.card__text {
+    position: relative;
+    z-index: 2;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.lots__look-more-link {
+    display: block;
+    padding-top: 30px;
+    padding-left: 64px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+    text-underline-offset: 3px;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 72px;
+    margin-top: 148px;
+}
+
+.about__column {
+    grid-column: 1/2;
+    display: flex;
+    justify-content: center;
+    margin-left: 70px;
+}
+
+.about__column-text {
+    grid-column: 2/4;
+}
+
+.about__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 240px;
+    background: #000;
+    border-radius: 100%;
+
+}
+
+.about__logo-image {
+    width: 141px;
+    height: 112px;
+}
+
+.about__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-transform: uppercase;
+    color: #000000;
+    padding-top: 98px;
+}
+
+.about__text {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    padding-top: 101px;
 }
